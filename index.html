@@ -6,31 +6,38 @@
 
   <body>
     
-    <h3>Custom_JSON</h3>
+    <h3>Relegate RC</h3>
     <input
-      type="text"
-      placeholder="message"
+      type="hidden"
+      placeholder="Delgate RC"
       id="custom_message"
-      value="Test message"
+      value="Delgate RC"
     />
-    <input
+    From Username: <input
       type="text"
-      placeholder="username"
-      id="custom_username"
+      placeholder=""
+      id="custom_from"
+      value="stoodkev"
+    />
+    To Username: <input
+      type="text"
+      placeholder=""
+      id="custom_to"
+      value="stoodkev"
+    />
+    Equivelent HP: <input
+      type="text"
+      placeholder="10"
+      id="custom_HP"
       value="stoodkev"
     />
     <select id="custom_method">
       <option>Posting</option>
       <option>Active</option>
     </select>
-    <input type="text" placeholder="id" id="custom_id" value="custom" />
-    <input
-      type="text"
-      placeholder="custom_json"
-      id="custom_json"
-      value='{"hive":"keychain"}'
-    />
-    <input type="text" placeholder="rpc" id="custom_rpc" />
+    <input type="hidden" placeholder="delegate_rc" id="custom_id" value="delegate_rc" />
+    
+    <input type="hidden" placeholder="rpc" id="custom_rpc" />
     <button id="send_custom">Send</button>
     
     <script src="./jquery.js"></script>
